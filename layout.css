@@ -1,0 +1,206 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font: 12pt Helvetica;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font: 12pt Helvetica;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font: 12pt Helvetica;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font: 12pt Helvetica;
+}
+.title::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font: 18pt Helvetica;
+}
+.title::-moz-placeholder { /* Firefox 19+ */
+    font: 18pt Helvetica;
+}
+.title:-ms-input-placeholder { /* IE 10+ */
+    font: 18pt Helvetica;
+}
+.title:-moz-placeholder { /* Firefox 18- */
+    font: 18pt Helvetica;
+}
+
+#create-event-button:focus{
+    border: 3px solid lightblue;
+}
+
+body {
+    font: 12pt Helvetica;
+}
+#content {
+    padding-top: 50px;
+}
+
+
+
+.card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    border: none !important;
+}
+
+.card button {
+    width: 100%;
+}
+
+#all-day-event-checkbox{
+    width: 17px;
+    height: 17px;
+    align-items: inherit;
+} 
+
+input[type="text"]#event-name, input[type="text"]#event-location {
+    border: none;
+}
+input[type="text"].title {
+    font: 18pt Helvetica;
+    margin-bottom: 5px;
+}
+
+#event-location{
+    font: 12pt Helvetica;
+}
+
+.line, option.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    padding: 0;
+}
+
+#time-details {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.time-detail-name {
+    text-align: right;
+}
+#time-details tr td:nth-child(1) {
+    width: 125px;
+    padding-right: 10px;
+}
+.hidden {
+    display: none;
+}
+
+td{
+    padding-bottom: 5%;
+}
+
+.checkboxes {
+    padding-top: 5px;
+}
+.checkbox-selector input, .month-checkbox-selector input {  
+    display: none !important;
+}
+.checkbox-selector input[type=checkbox] + label{
+    display: inline-block;
+    border-radius: 6px;
+    background: #dddddd;
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.month-checkbox-selector input[type=checkbox] + label {
+    display: inline-block;
+    border-radius: 6px;
+    background: #dddddd;
+    height: 30px;
+    width: 45px;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.checkbox-selector input[type=checkbox]:checked + label, .month-checkbox-selector input[type=checkbox]:checked + label {
+    background: #2AD705;
+    color: #ffffff;
+}
+
+#event-name{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#event-start-date, #event-end-date{
+    height: 40px;
+}
+
+#recurrent-event-type-selector{
+    height: 40px;
+}
+
+#recurrent-event-end-date{
+    height: 40px;
+}
+
+#create-event-button{
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 5px 5px black;
+    font-size: 25px;
+    background-color: teal;
+}
+
+#recurrent-event-time-selector{
+    height: 40px;
+}
+
+#daily-recurrent-details{
+    padding-top: 5%;
+}
+
+#daily-recurrent-freq{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+#recurrent-event-content{
+    padding-left: 10%;
+}
+
+.line{
+    padding-bottom: 5%;
+}
+
+#line1{
+    padding-top: 5%;
+}
+
+#start-time-row{
+    padding-bottom: 5%;
+}
+
+#monthly-recurrent-details, #weekly-recurrent-details, #yearly-recurrent-details #daily-recurrent-details.hidden{
+    padding-top: 5%;
+    align-content: center;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: teal;
+    color: white;
+    font-size: 30px;
+}
+
+#event-location.col-md-12{
+    height: 52px;
+}
+
+#all-day-event-date{
+    height: 40px;
+}
